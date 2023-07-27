@@ -28,3 +28,18 @@ def backup_folder(source_folder_path):
     shutil.copytree(source_folder_path, backup_path)
 
     log_to_db("BACKUP", "Folder=" + source_folder_path, "SUCCESS")
+
+
+#Do the same for files
+
+def backup_file(source_file_path):
+    if not os.path.exists(source_file_path):
+        log_to_db("BACKUP", "File=" + source_file_path, "ERROR")
+        raise ValueError("Source File does not exist")
+    
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    backup_folder_name = f"{os.path.basename(source_file_path)}_{timestamp}"
+    backup_path = os.path.join(backup_folder_path, backup_folder_name)
+
+    shutil.copyfile(source_file_path, backup_path)
+    log_to_db("BACKUP", "File=" + source_file_path, "SUCCESS")
