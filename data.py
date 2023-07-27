@@ -81,7 +81,7 @@ def get_log(start, end):
     log_to_db("GET LOGS", "", "SUCCESS")
     return jsonify(logs)
 
-
+# Gets count of backups 
 def get_stat():
     db = dbconnect()
     cursor = db.cursor()
