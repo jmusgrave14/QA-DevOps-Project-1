@@ -14,5 +14,12 @@ pipeline {
           sh "sudo docker login localhost:8083 -u ${NEXUS_LOGIN_USR} -p ${NEXUS_LOGIN_PSW}"
   }
 }
+      stage('deploy') {
+        steps {
+          sh "sudo docker stop pythonbuild"
+          sh "sudo docker rm pythonbuild"
+          sh "sudo docker run -d -p 5000:5000 -e SQL_HOST=host.docker.internal --name pythonbuild localhost:8803/pythonapp"
+  }
+}
   }
 }
