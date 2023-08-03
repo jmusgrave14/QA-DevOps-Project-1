@@ -14,3 +14,4 @@ pipeline {
           sh "sudo docker login localhost:8083 -u ${NEXUS_LOGIN_USR} -P ${NEXUS_LOGIN_PSW}"
   }
 }
+  }
