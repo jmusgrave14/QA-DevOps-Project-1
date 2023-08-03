@@ -6,7 +6,7 @@ pipeline {
   stages {
       stage('build') {
         steps (
-          sh "sudo docker build -t localhost:8083/pythonapp ."
+          sh sudo docker build -t localhost:8083/pythonapp .
         )
       }
       stage('push') (
