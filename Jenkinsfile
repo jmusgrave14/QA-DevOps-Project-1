@@ -5,12 +5,12 @@ pipeline {
   }
   stages {
       stage('build') {
-        steps (
-          sh sudo docker build -t localhost:8083/pythonapp .
-        )
+        steps {
+          sh "sudo docker build -t localhost:8083/pythonapp ."
+        }
       }
-      stage('push') (
-        steps (
+      stage('push') {
+        steps {
           sh "sudo docker login localhost:8083 -u ${NEXUS_LOGIN_USR} -P ${NEXUS_LOGIN_PSW}"
   }
 }
