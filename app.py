@@ -1,3 +1,5 @@
+pip install flask
+
 from flask import Flask, request
 from backup import backup_folder
 from data import get_log, get_stat
