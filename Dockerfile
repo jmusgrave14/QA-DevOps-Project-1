@@ -5,8 +5,7 @@ EXPOSE 5000
 LABEL maintainer="qa.com"
 WORKDIR /usr/src/app
 
-COPY *.py ./
-COPY requirements.txt ./
+COPY . ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
