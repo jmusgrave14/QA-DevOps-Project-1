@@ -16,6 +16,8 @@ pipeline {
 }
       stage('deploy') {
         steps {
+          sh "sudo stop pythonbuild"
+          sh "sudo rm pythonbuild"
           sh "sudo docker run -d -p 5000:5000 -e SQL_HOST=host.docker.internal --name pythonbuild localhost:8083/pythonapp:latest"
   }
 }
