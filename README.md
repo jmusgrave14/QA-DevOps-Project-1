@@ -50,6 +50,42 @@ I was not very confident using Nexus due to difficulties with the teaching of it
 
 ![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/2758276e-2df3-4e11-ad91-581217457378)
 
+### Jenkins
+
+I logged in as root in order to set up a Jenkins server 
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/14461550-fb01-4493-a842-7ccbffdcefaa)
+
+I then created a freestyle project and a pipeline, both linked to my GitHub repository 
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/857687a8-ac8d-4934-9a93-883acbfd2005)
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/21c7accc-0900-40c8-921b-5c4a47a778e0)
+
+I then created a new Jenkinsfile in my GitHub repo which contained the code needed to build, push and deploy my app
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/8a145010-ce09-4683-b808-a6572976724d)
+
+I tested that the pipeline ran on Jenkins and made the necessary changes when it failed 
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/183ae3ef-5e31-4c5e-adf8-dcb62aa15eba)
+
+
+## Testing 
+
+Once my app was running I tested it by going to the relevant localhost urls 
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/ce1c3209-87b9-4775-80cb-081b0e99de2b)
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/b80025dd-63d2-45c2-9ddd-b839de018e01)
+
+
+
+
+
+
+
+
 
 
 
