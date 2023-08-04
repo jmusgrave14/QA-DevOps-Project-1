@@ -73,7 +73,7 @@ I tested that the pipeline ran on Jenkins and made the necessary changes when it
 
 ## Testing 
 
-Once my app was running I tested it by going to the relevant localhost urls 
+Once my app was running I tested it by changing the code and making sure it still built, and by going to the relevant localhost urls to check that the app functions of log and stat were working 
 
 ![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/ce1c3209-87b9-4775-80cb-081b0e99de2b)
 
