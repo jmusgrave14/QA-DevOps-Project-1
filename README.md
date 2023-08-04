@@ -16,4 +16,6 @@ This basic Entity Relationship Diagram plans out the database used for the proje
 
 ### Risk Assessment 
 
+This is a basic initial risk assessment. As this was a training project the risks involved were low
+
 ![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/1269fab8-506d-4480-b425-1e80b149e5e5)
