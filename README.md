@@ -44,6 +44,13 @@ Finally I connected this image to the database I had created on MySQLWorkbench
 
 ![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/545bc6de-a1eb-4563-b3b9-46d8e8afd30c)
 
+### Nexus 
+
+I was not very confident using Nexus due to difficulties with the teaching of it. However I followed instructions to sign in and create proxy and hosted repositiories
+
+![image](https://github.com/jmusgrave14/QA-DevOps-Project-1/assets/139867104/2758276e-2df3-4e11-ad91-581217457378)
+
+
 
 
 
